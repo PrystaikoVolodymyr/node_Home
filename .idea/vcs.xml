@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js/lesson1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js/lesson4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js/lesson6" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react/owu-react/owu-react" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react/owu-react/state-project" vcs="Git" />
+  </component>
+</project>

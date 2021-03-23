@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e1dec4b-1340-479b-9bae-9cea28c78f1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/lesson1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/owu-react/state-project/src/components/all-users/AllUsers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/owu-react/state-project/src/components/all-users/AllUsersComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/owu-react/state-project/src/components/user/UserComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson4/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson6/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/lesson1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/owu-react/state-project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react/owu-react/state-project/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/owu-react/state-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/owu-react/state-project/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1oeH0Yf1wcKr0Su3XOmRblZZ2zw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e1dec4b-1340-479b-9bae-9cea28c78f1d" name="Default Changelist" comment="" />
+      <created>1613639917492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613639917492</updated>
+      <workItem from="1613639919655" duration="696000" />
+      <workItem from="1613640678289" duration="18000" />
+    </task>
+    <task id="LOCAL-00001" summary="lesson1">
+      <created>1613640589354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613640589354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson1" />
+  </component>
+</project>
