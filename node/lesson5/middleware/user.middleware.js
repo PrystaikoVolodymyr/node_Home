@@ -1,6 +1,5 @@
 const errorCodes = require('../constants/errorCodes.enum');
 const errorMessage = require('../error/error.message');
-// const BD = require('../dataBase/user');
 
 module.exports = {
   checkIsIdValid: async (req, res, next) => {
@@ -20,11 +19,7 @@ module.exports = {
       if (!name || !password) {
         throw new Error(errorMessage.BAD_USER);
       }
-      // for (const user of BD) {
-      //   if (user.name === name) {
-      //     throw new Error(errorMessage.ALREADY_CREATED);
-      //   }
-      // }
+
       await next();
     } catch (e) {
       res.status(errorCodes.BAD_REQUEST).json(e.message);
