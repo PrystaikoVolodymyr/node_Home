@@ -1,4 +1,6 @@
 const { userService } = require('../service');
+const { errorCodes } = require('../constants');
+const { passwordHasher } = require('../helpers');
 
 module.exports = {
   getAllUsers: async (req, res) => {
@@ -7,7 +9,7 @@ module.exports = {
 
       res.json(users);
     } catch (e) {
-      res.status('400').json(e.message);
+      res.status(errorCodes.BAD_REQUEST).json(e.message);
     }
   },
   getOneUser: async (req, res) => {
@@ -17,7 +19,7 @@ module.exports = {
 
       res.json(user);
     } catch (e) {
-      res.status(400).json(e.message);
+      res.status(errorCodes.BAD_REQUEST).json(e.message);
     }
   },
   deleteOneUser: async (req, res) => {
@@ -27,17 +29,18 @@ module.exports = {
 
       res.json('User is deleted');
     } catch (e) {
-      res.status(400).json(e.message);
+      res.status(errorCodes.BAD_REQUEST).json(e.message);
     }
   },
   createUser: async (req, res) => {
     try {
-      const user = req.body;
-      await userService.createUser(user);
+      const { password } = req.body;
+      const hashPassword = await passwordHasher.hash(password);
+      await userService.createUser({ ...req.body, password: hashPassword });
 
       res.json('created');
     } catch (e) {
-      res.status(400).json(e.message);
+      res.status(errorCodes.BAD_REQUEST).json(e.message);
     }
   }
 };

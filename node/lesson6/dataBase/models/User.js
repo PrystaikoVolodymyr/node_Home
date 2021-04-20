@@ -4,6 +4,7 @@ const girlSubScheme = new Schema({
   name: { type: String, required: true },
   age: { type: Number, required: true }
 });
+
 const userSchema = new Schema({
   name: { type: String, required: true },
   yearOfBorn: { type: Number, required: true },
